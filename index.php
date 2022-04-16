@@ -26,22 +26,29 @@ $pokemons = json_decode(file_get_contents($url));
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-                <h1>Pokemons Encontrados</h1>
+                <Center><h1>PokeDex</h1></Center>
             </div>    
         </div>
-        <div class="row">
+        <center><div class="row">
             <?php foreach($pokemons->pokemon as $pokemon){
                 echo '
-                <div class="card" style="width: 18rem;">
-                    <img src="'.$pokemon->img.'" class="card-img-top" alt="'.$pokemon->name.'">
-                    <div class="card-body">
-                        <h3 class="card-title">'.$pokemon->name.'</h3>        
-                        <h6>Tipo: '.$pokemon->type[0].'</h6>
+                <div class="col-sm-4" id="card-poke">
+                    <div class="card" id="crd" style="width: 18rem;">
+                    <center><img id="img-poke" src="'.$pokemon->img.'" class="card-img-top" alt="'.$pokemon->name.'"></center>
+                        <div class="card-body" id="crd-bd">
+                            <h6>#'.$pokemon->num.'</h6><hr> 
+                            <h3 class="card-title">'.$pokemon->name.'</h3>
+                            <h7>Tipo: ';
+                            foreach($pokemon->type as $type){
+                                echo $type.' </h7>';
+                            }
+                            echo '
+                        </div>
                     </div>
                 </div>
                 ';
             } ?>
-        </div>
+        </div></center>
     </div>
 
 
