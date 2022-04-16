@@ -40,7 +40,12 @@ $pokemons = json_decode(file_get_contents($url));
                             <h3 class="card-title">'.$pokemon->name.'</h3>
                             <h7>Tipo: ';
                             foreach($pokemon->type as $type){
-                                echo $type.' </h7>';
+                                echo $type.' - </h7>';
+                            }
+                            echo '
+                            <br><h7>Fraqueza: ';
+                            foreach($pokemon->weaknesses as $weak){
+                                echo $weak.' - </h7>';
                             }
                             echo '
                         </div>
