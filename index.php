@@ -8,7 +8,7 @@ $pokemons = json_decode(file_get_contents($url));
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -33,6 +33,7 @@ $pokemons = json_decode(file_get_contents($url));
             <?php foreach($pokemons->pokemon as $pokemon){
                 echo '
                 <div class="col-sm-4" id="card-poke">
+                    
                     <div class="card" id="crd" style="width: 18rem;">
                     <center><img id="img-poke" src="'.$pokemon->img.'" class="card-img-top" alt="'.$pokemon->name.'"></center>
                         <div class="card-body" id="crd-bd">
@@ -47,7 +48,8 @@ $pokemons = json_decode(file_get_contents($url));
                             foreach($pokemon->weaknesses as $weak){
                                 echo $weak.' - </h7>';
                             }
-                            echo '
+                            echo '<br><br>
+                            <a href="pokemon.php?cd='.$pokemon->num.'" class="btn btn-info">Ver Mais</a>
                         </div>
                     </div>
                 </div>
@@ -56,28 +58,6 @@ $pokemons = json_decode(file_get_contents($url));
         </div></center>
     </div>
 
-
-    <?php 
-        if(count($pokemons->pokemon)) {
-            $i = 0;
-            foreach($pokemons->pokemon as $pokemon){
-                $i++;
-
-    ?>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <?php echo $pokemon->name; ?>
-                </div>
-            </div>
-        </div>
-
-
-    <?php
-            }
-        }
-    ?>
 
 </body>
 </html>
