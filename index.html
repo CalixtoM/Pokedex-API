@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta name="description" content="Portfolio do CalixtoLabs, contendo projetos, serviços prestados e informações gerais">
+	<meta name="theme-color" content="#1E90FF"/>
+	<link rel="icon" type="imagem/png" href="img/logo_base.webp" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="https://kit.fontawesome.com/de306f5493.js" crossorigin="anonymous"></script>
+	<!-- Teste-->
+	<meta name="theme-color" content="#000">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<title>CalixtoLabs - Portfolio</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #171717;">
+		<div class="container-fluid">
+	    	<a class="navbar-brand" href="#"><img width="120" alt="Logotipo Calixtolabs" class="d-inline-block align-text-top" src="img/logo_texto.webp"></a>
+	    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      		<span class="navbar-toggler-icon"></span>
+	    	</button>
+	    	<div class="collapse navbar-collapse" id="navbarNav">
+	    		<div class="col-sm-6"></div>
+	    		<div class="col-sm-6">
+	    			<ul class="navbar-nav">
+	        		<li class="nav-item">
+	          			<a class="nav-link active" aria-current="page" href="#sobremim" id="navbtn">Sobre mim</a>
+	        		</li>
+	        		<li class="nav-item">
+	          			<a class="nav-link active" href="#projetos" id="navbtn">Projetos</a>
+	        		</li>
+	        		<li class="nav-item">
+	          			<a class="nav-link active" href="#serv" id="navbtn">Serviços</a>
+	        		</li>
+	        		<li class="nav-item">
+	          			<a class="nav-link active" href="#skil" id="navbtn">Minhas Skills</a>
+	        		</li>
+	      		</ul>
+	    		</div>
+	    	</div>
+	  	</div>
+	</nav>
+
+	<div style="background-color: #171717; padding-top: 35px;">
+		<div class="container" >
+			<div class="row" style="padding-top: 65px;" id="sobremim">
+				<div class="col-sm-6">
+					<div class="row">
+						<h1 style="color: white; font-size: 28px; "><b>Olá, eu sou o <br>Matheus Calixto</b></h1>
+					</div>
+					<div class="row">
+						<p style="color: silver;">Desenvolvedor Full-Stack</p>
+					</div>
+					<div class="row">
+						<!--<div class="col-sm-3" >
+							<button id="btdown" class="btn btn-success">Download</button>
+						</div>-->
+						<div class="col-sm-5">
+							<a class="btn btn-light" id="btdown" href="https://api.whatsapp.com/send?phone=5513996458352&text=olá,%20vi%20seu%20portfolio">Entrar em Contato</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row" id="linha">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<div class="row">
+						<center><h2 style="color: white; text-align: center; font-size: 24px;">Sobre Mim</h2></center>
+					</div>
+					<div class="row">
+						<p style="color: silver; text-align: justify;">Tenho 19 anos, sou programador com três anos de experiência profissional, possuo formação técnica em Informática P/ Internet pela Etec de Itanhaém. Atualmente estou no terceiro semestre do curso tecnológico de Análise e Desenvolvimento de Sistemas pela Fatec de Praia Grande. Possuo uma série de projetos realizados para diversos setores, conheça um pouco mais! Se tiver interesse em algum dos meus serviços estarei a disposição para conversarmos.</p>
+					</div>
+				</div>
+			</div>
+			<center><div class="row">
+				<div class="col-sm-3">
+					<div class="row">
+						<div class="row">
+							<div class="ibg">
+								<i class="far fa-smile"></i>
+							</div>
+						</div>
+						<h3 style="color: white; font-size: 1em;">Meu Nome</h3>
+					</div>
+					<div class="row">
+						<p style="color: silver;">Matheus Calixto</p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="row">
+						<div class="row">
+							<div class="ibg">
+								<center><i class="far fa-envelope"></i></center>
+							</div>
+						</div>
+						<h3 style="color: white; font-size: 1em;">E-mail</h3>
+					</div>
+					<div class="row">
+						<p style="color: silver;">calixtolabs@gmail.com</p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="row">
+						<div class="row">
+							<div class="ibg">
+								<center><i class="fab fa-github"></i></center>
+							</div>
+						</div>
+						<h3 style="color: white; font-size: 1em;">GitHub</h3>
+					</div>
+					<div class="row">
+						<p style="color: silver;">Github.com/CalixtoM</p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="row">
+						<div class="row">
+							<div class="ibg">
+                        		<center><i class="fas fa-phone-alt"></i>
+							</div>
+						</div>
+						<h3 style="color: white; font-size: 1em;">Celular</h3>
+					</div>
+					<div class="row">
+						<p style="color: silver;">(13) 99645-8352</p>
+					</div>
+				</div>
+			</div></center>
+			<div class="row" id="linha">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4">
+					<center><h2 style="color: white; font-size: 24px; ">Projetos</h2></center>
+				</div>
+			</div>
+			<details>
+				<summary style="color: white;">Sites e Sistemas</summary>
+			
+				<center><div class="row" id="projetos" style="margin-top: 15px;">
+					<div class="col-sm-4">
+						<div class="card text-white mb-3" style="width: 18rem; background-color: #212121;">
+						  	<img src="img/print_login.webp" alt="tela de login" class="card-img-top" alt="...">
+						  	<div class="card-body">
+						    	<h3 class="card-title" style="font-size: 1.2em;">Sistema de login</h3>
+						    	<p class="card-text">Stack: HTML, PHP, MySQL</p>
+								<div class="row">
+									<div class="col-6">
+										<a href="https://github.com/CalixtoM/Sistema-Login" class="btn btn-primary">Visualizar</a>
+									</div>
+									<div class="col-6">
+										<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal1">
+											Detalhes
+										</button>
+									</div>
+								</div>
+						    	
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card text-white mb-3" style="width: 18rem;  background-color: #212121;">
+						  	<img src="img/jordan.webp" alt="Loja de Jordans" class="card-img-top" alt="...">
+						  	<div class="card-body">
+						    	<h3 class="card-title" style="font-size: 1.2em;">Vitrine JordanShoes</h3>
+						    	<p class="card-text">Stack: HTML, CSS, JavaScript</p>
+						    	
+								<div class="row">
+									<div class="col-6">
+										<a href="https://calixtom.github.io/VitrineJordanShoes/" class="btn btn-primary">Visualizar</a>
+									</div>
+									<div class="col-6">
+										<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal2">
+											Detalhes
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card text-white mb-3" style="width: 18rem;  background-color: #212121;" >
+						  	<img src="img/tcc.webp" alt="Site trampo certo" class="card-img-top" alt="...">
+						  	<div class="card-body">
+						    	<h3 class="card-title" style="font-size: 1.2em;">Trampo Certo (TCC)</h3>
+						    	<p class="card-text">Stack: PHP, MySQL, JavaScript</p>
+						    	
+								<div class="row">
+									<div class="col-6">
+										<a href="https://github.com/CalixtoM/TCC-Trampo-Certo" class="btn btn-primary">Visualizar</a>
+									</div>
+									<div class="col-6">
+										<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal3">
+											Detalhes
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="card text-white mb-3" style="width: 18rem;  background-color: #212121;" >
+						  	<img src="img/schedule.webp" alt="agenda" class="card-img-top" alt="...">
+						  	<div class="card-body">
+						    	<h3 class="card-title" style="font-size: 1.2em;">Scheduleasy</h3>
+						    	<p class="card-text">Stack: PHP, MySQL, JavaScript</p>
+						    	
+								<div class="row">
+									<div class="col-6">
+										<a href="https://github.com/CalixtoM/Scheduleasy" class="btn btn-primary">Visualizar</a>
+									</div>
+									<div class="col-6">
+										<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal4">
+											Detalhes
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="card text-white mb-3" style="width: 18rem;  background-color: #212121;" >
+						  	<img src="img/pokedex.webp" alt="agenda" class="card-img-top" alt="...">
+						  	<div class="card-body">
+						    	<h3 class="card-title" style="font-size: 1.2em;">PokeDex API</h3>
+						    	<p class="card-text">Stack: PHP, CSS, JavaScript, API</p>
+						    	
+								<div class="row">
+									<div class="col-6">
+										<a href="https://github.com/CalixtoM/Pokedex-API" class="btn btn-primary">Visualizar</a>
+									</div>
+									<div class="col-6">
+										<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal5">
+											Detalhes
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--<div class="col-sm-4">
+						<div class="card text-white mb-3" style="width: 18rem;  background-color: #212121;">
+						  	<img src="img/ms.png" class="card-img-top" alt="...">
+						  	<div class="card-body">
+						    	<h5 class="card-title">Landing Page Condomínio</h5>
+						    	<p class="card-text">Tecnologias: HTML, CSS, JavaScript</p>
+						    	<a href="https://mscasanapraia.com.br/" class="btn btn-primary">Visualizar</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card text-white mb-3" style="width: 18rem;  background-color: #212121;" >
+						  	<img src="img/semimagem.jpg" class="card-img-top" alt="...">
+						  	<div class="card-body">
+						    	<h5 class="card-title">Titulo do projeto</h5>
+						    	<p class="card-text">Tecnologias: HTML, PHP, JavaScript</p>
+							</div>
+						</div>
+					</div>
+				</div>--></center>
+			</details> <!-- Sites -->
+			<details>
+				<summary style="color: white;">Social Media</summary>
+				<center><div class="row" style="margin-top: 15px;">
+					<div class="col-sm-4">
+						<div class="card text-white mb-3" style="width: 18rem;  background-color: #212121;" >
+						  	<img src="img/media/1.webp" alt="Imagem instagram" class="card-img-top" alt="...">
+						  	<div class="card-body">
+						    	<h3 class="card-title" style="font-size: 1.2em;">Propaganda CalixtoLabs</h3>
+						    	<p class="card-text">Arte feita para Instagram</p>
+						    	<a href="https://www.instagram.com/calixtolabs/" class="btn btn-primary">Visualizar</a>
+							</div>
+						</div>
+					</div>
+				</div></center>
+			</details> <!-- Social Media -->
+
+			<div class="row" id="linha">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4" id="serv">
+					<center><h2 style="color: white; font-size: 24px;">Serviços</h2></center>
+				</div>
+			</div>
+			<center><div class="row">
+				<div class="col-sm-4">
+					<div class="card text-white mb-3" style="max-width: 18rem;"id="cards-c1">
+					  	<div class="card-header">
+					  		<img src="img/programming.webp" alt="Programação" id="im1" class="img-fluid" style="width: 45px;">
+					  	</div>
+					  	<div class="card-body">
+					   		<h3 class="card-title" style="font-size: 1.2em;">Criação de Sites</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card text-white mb-3" style="max-width: 18rem;"id="cards-c2">
+					  	<div class="card-header">
+					  		<img src="img/promotion-_1_.webp" alt="Marketing" class="img-fluid" style="width: 45px;">
+					  	</div>
+					  	<div class="card-body">
+					   		<h3 class="card-title" style="font-size: 1.2em;">Marketing Web</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card text-white mb-3" style="max-width: 18rem; "id="cards-c3">
+					  	<div class="card-header">
+					  		<img src="img/smartphone-call.webp" alt="Responsividade" class="img-fluid" style="width: 45px;">
+					  	</div>
+					  	<div class="card-body">
+					   		<h3 class="card-title" style="font-size: 1.2em;">Sites Responsivos</h3>
+						</div>
+					</div>
+				</div>
+			</div></center>
+			<div class="row" id="linha">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4" id="skil">
+					<center><h2 style="color: white; font-size: 24px;">Minhas Skills</h2></center>
+				</div>
+			</div>
+			<center><div class="row" id="skillsrow"> 
+				<div class="col-sm-3">
+					<div class="card " style=" background-color: #212121;">
+						<br>
+						<center><img src="img/php.webp" alt="PHP" class="img-fluid" style="width: 95px;"></center>
+						<br>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card " style=" background-color: #212121;">
+						<br>
+						<center><img src="img/mysql.webp" alt="MySQL" class="img-fluid" style="width: 95px;"></center>
+						<br>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card " style=" background-color: #212121;">
+						<br>
+						<center><img src="img/css.webp" alt="CSS" class="img-fluid" style="width: 95px;"></center>
+						<br>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card " style=" background-color: #212121;">
+						<br>
+						<center><img src="img/bootstrap.webp" alt="Bootstrap" class="img-fluid" style="width: 95px;"></center>
+						<br>
+					</div>
+				</div>
+			</div></center>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="page-footer font-small cyan darken-3" style="background-color: #171717;">
+
+	  <!-- Footer Elements -->
+		<div class="container">
+
+	    	<!-- Grid row-->
+	    	<div class="row">
+
+	      	<!-- Grid column -->
+	      		<center><div class="col-md-12 py-5">
+	        		<center><div class="row flex-center">
+
+	          		<!-- Facebook -->
+	          			<div class="col-4" id="linksfoot">
+	          				<a class="fb-ic" name="Facebook" id="linkfootF" href="https://www.facebook.com/CalixtoLabs-112900521289192">
+	            				<i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i><p >Facebook</p>
+	          				</a>
+	          			</div>
+
+	          		<!--Linkedin -->
+	          			<div class="col-4" id="linksfoot">
+	          				<a class="li-ic" name="LinkedIn" id="linkfootL" href="https://www.linkedin.com/in/matheus-calixto-29480719a/">
+	            				<i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i> <p >LinkedIn</p>
+	          				</a>
+	          			</div>
+
+	          		<!--Instagram-->
+	          			<div class="col-4" id="linksfoot">
+	          				<a class="ins-ic" id="linkfootI" name="Instagram" href="https://www.instagram.com/mcalixto1302/">
+	          				  	<i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i> <p >Instagram</p>
+	          				</a>
+	          			</div>
+	        		</div></center>
+	      		</div></center>
+	      		<!-- Grid column -->
+
+	   		</div>
+	    	<!-- Grid row-->
+
+	  	</div>
+	  	<!-- Footer Elements -->
+
+	  <!-- Copyright -->
+	  	<div class="footer-copyright text-center py-3" style="color: white;">© 2022 Copyright:
+	    	<a href="https://calixtolabs.com.br/" style="color: dodgerblue; text-decoration: none;">CalixtoLabs
+	    	</a>
+	  	</div>
+	  <!-- Copyright -->
+
+	</footer>
+	<!-- Footer -->
+
+	
+	<!-- Modal1 -->
+	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  	<div class="modal-content">
+				<div class="modal-header">
+			  		<h5 class="modal-title" id="exampleModalLabel">Sistema de Login</h5>
+			  		<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+						<span aria-hidden="true">&times;</span>
+			  		</button>
+				</div>
+				<div class="modal-body">
+			  		<div class="row">
+						<div class="col-sm-4">
+							<h4>Tecnologias:</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<p>PHP, HTML, CSS, MySQL, Bootstrap.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<h4>Descrição:</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<p style="text-align: justify;">Nesse projeto me desafiei a desenvolver um sistema de login, contendo criptografia, banco de dados MySQL, além de PHP no backend.</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+			  		<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+				</div>
+		  	</div>
+		</div>
+	</div>
+
+	<!-- Modal2 -->
+	<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  	<div class="modal-content">
+				<div class="modal-header">
+			  		<h5 class="modal-title" id="exampleModalLabel">Vitrine JordanShoes</h5>
+			  		<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+						<span aria-hidden="true">&times;</span>
+			  		</button>
+				</div>
+				<div class="modal-body">
+			  		<div class="row">
+						<div class="col-sm-4">
+							<h4>Tecnologias:</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<p>HTML, CSS, JavaScript, Bootstrap.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<h4>Descrição:</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<p style="text-align: justify;">A ideia desse projeto é reproduzir o layout desenvolvido pelo Iuri Silva, no caso uma vitrine virtual de tênis Jordans.</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+			  		<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+				</div>
+		  	</div>
+		</div>
+	</div>
+
+	<!-- Modal3 -->
+	<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  	<div class="modal-content">
+				<div class="modal-header">
+			  		<h5 class="modal-title" id="exampleModalLabel">Trampo Certo (TCC)</h5>
+			  		<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+						<span aria-hidden="true">&times;</span>
+			  		</button>
+				</div>
+				<div class="modal-body">
+			  		<div class="row">
+						<div class="col-sm-4">
+							<h4>Tecnologias:</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<p>PHP, HTML, CSS, JavaScript, MySQL, Bootstrap.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<h4>Descrição:</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<p style="text-align: justify;">Nesse repositório é possivel encontrar o trabalho de conclusão de curso realizado durante o ensino técnico de Informática P/ Internet da Etec de Itanhaém. O Trampo Certo é um sistema de busca por mão de obra qualificada, onde o usuário pode procurar profissionais para realizar trabalhos, ou trabalhadores autônomos podem buscar oportunidades de serviços de maneira simplificada.</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+			  		<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+				</div>
+		  	</div>
+		</div>
+	</div>	
+
+	<!-- Modal4 -->
+	<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  	<div class="modal-content">
+				<div class="modal-header">
+			  		<h5 class="modal-title" id="exampleModalLabel">Scheduleasy</h5>
+			  		<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+						<span aria-hidden="true">&times;</span>
+			  		</button>
+				</div>
+				<div class="modal-body">
+			  		<div class="row">
+						<div class="col-sm-4">
+							<h4>Tecnologias:</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<p>PHP, HTML, CSS, JavaScript, MySQL, Bootstrap.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<h4>Descrição:</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<p style="text-align: justify;">Nesse projeto decidi desenvolver um sistema simples de agenda, para praticar o uso de banco de dados, a manipulação de datas e até mesmo o uso de um sistema de tema Light/Dark, podendo ser alterado pelo usuário.</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+			  		<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+				</div>
+		  	</div>
+		</div>
+	</div>
+
+	<!-- Modal5 -->
+	<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  	<div class="modal-content">
+				<div class="modal-header">
+			  		<h5 class="modal-title" id="exampleModalLabel">PokeDex API</h5>
+			  		<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+						<span aria-hidden="true">&times;</span>
+			  		</button>
+				</div>
+				<div class="modal-body">
+			  		<div class="row">
+						<div class="col-sm-4">
+							<h4>Tecnologias:</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<p>PHP, HTML, CSS, JavaScript, API, Bootstrap.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<h4>Descrição:</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<p style="text-align: justify;">A ideia de realizar esse projeto surgiu após sentir a necessidade de praticar o consumo de APIs, como esse tipo de skill vem sendo cada vez mais solicitada é importante praticar sempre.</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+			  		<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+				</div>
+		  	</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
+
+<style type="text/css">
+	#cards-c1{
+		background-color: #212121;
+		border-bottom-color: DodgerBlue;
+		border-bottom-width: 3px;
+	}
+
+	#cards-c2{
+		background-color: #212121;
+		border-bottom-color: DodgerBlue;
+		border-bottom-width: 3px;
+	}
+
+	#cards-c3{
+		background-color: #212121;
+		border-bottom-color: DodgerBlue;
+		border-bottom-width: 3px;
+	}
+
+	#skills{
+		color: #00DF5E;
+	}
+
+	#btdown{
+		background-color: DodgerBlue;
+		border-color: DodgerBlue;
+		border-radius: 0%;
+		color: black;
+	}
+
+	#btdown:hover{
+		background-color: RoyalBlue;
+		border-color: RoyalBlue;
+	}
+
+	#btctt{
+		background-color: #212121;
+		border-color: #333333;
+		border-radius: 0%;
+		color: white;
+	}
+
+	#linha{
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+
+	i{
+		color: DodgerBlue;
+		font-size: 42px;
+	}
+
+	.ibg{
+		color: #212121;
+		border-radius: 100%;
+		margin-bottom: 35px;
+		margin-left: 10px;
+		text-align: center;
+		/*height: 100px;
+		display: flex;
+		 justify-content: center;
+		align-items: center;
+		margin-bottom: 2rem; */
+	}
+
+	#tst{
+		color: blue;
+		border-radius: 100%;
+		width: 200px;
+		height: 200px;
+		border-color: blue;
+	}
+
+	#skillsrow{
+		padding-bottom: 35px;
+	}
+
+	#navbtn{
+		border-bottom: 2px solid #171717;
+		transition: border-bottom 0.7s;
+	}
+
+	#navbtn:hover{		
+		border-bottom: 2px solid DodgerBlue;
+	}
+
+	summary{
+		list-style: none;
+	}
+
+	summary::-webkit-details-marker {
+	  display: none;
+	}
+	summary:after {
+	  background: #171717; 
+	  content: "+"; 
+	  color: DodgerBlue;
+	  float: left;  
+	  font-weight: bold; 
+	  padding: 0; 
+	  text-align: center; 
+	  width: 20px;
+	  left: 20px;
+	  margin-right: 10px;
+	}
+	details[open] summary:after {
+	  content: "-";
+	}
+
+	#linkfootI, #linkfootF, #linkfootL{
+		text-decoration: none;
+		color: dodgerblue;
+	}
+
+</style>
