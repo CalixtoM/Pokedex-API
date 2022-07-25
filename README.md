@@ -19,3 +19,6 @@ Desenvolvi a exibição dos Pokemons e estilizei essa listagem.
 
 ### 📸 Alguns Screenshots:
 <img src="https://user-images.githubusercontent.com/51165259/163694958-7d903377-6056-40b7-918b-dc0de8e2618f.png" width="800"/>
+
+
+## Projeto Finalizado✅
